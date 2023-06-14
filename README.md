@@ -22,7 +22,7 @@ IOS-Whisper-Notion 是一个用于在苹果手机中使用 Whisper将系统语�
 2. 使用以下链接下载并安装 Shortcuts：Shortcuts 链接
 3. 点击以下按钮一键部署    
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAichaelLee%2Fios-whisper-notion.git&env=DATABASE_ID&env=NOTION_AUTH&OPENAI_KEY&HEADER_AUTH_PASS)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAichaelLee%2Fios-whisper-notion.git&env=DATABASE_ID&env=NOTION_AUTH&env=OPENAI_KEY&env=HEADER_AUTH_PASS&repository-name=ios-whisper-notion)
 
 4. 在 Vercel 中配置环境变量 OPENAI_API_KEY（必需）、NOTION_API_KEY（必需）和HEADER_AUTH_PASS（必需）。
 5. 将 Shortcuts 配置为使用你的 Vercel 后端服务地址。

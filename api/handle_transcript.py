@@ -1,5 +1,5 @@
 import openai
-import txt2notion
+from api import txt2notion
 import logging
 import os
 from dotenv import load_dotenv

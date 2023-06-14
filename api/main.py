@@ -1,7 +1,7 @@
 from flask import Flask, request
 import os
 import tempfile
-import handle_transcript
+from api import handle_transcript
 import re
 from datetime import datetime
 import threading
